@@ -122,7 +122,7 @@ def train_top_model():
               verbose=0,
               callbacks=[TqdmCallback(), CSVLogger("metrics.csv")])
     model.save_weights(top_model_weights_path)
-
+    model.save("model.keras")
 
 save_bottlebeck_features()
 train_top_model()
