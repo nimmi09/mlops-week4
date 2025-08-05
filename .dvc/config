@@ -1,0 +1,4 @@
+[core]
+    remote = localremote
+['remote "localremote"']
+    url = /home/namratapant2002/week2/example-versioning/.dvc/cache
